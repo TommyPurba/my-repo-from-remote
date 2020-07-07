@@ -1,0 +1,266 @@
+/*bagian pertama*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #eeeeee;
+    font-family: poppins;
+}
+
+header
+{
+    padding: 3% 10%;
+}
+.home
+{
+    padding: 3% 10%;
+}
+.nav-item{
+    text-transform: uppercase;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.btn
+{
+    background-color: #3f3d56;
+    color: white;
+}
+.home-img{
+    height: 400px;
+
+}
+
+
+/* bagian featur*/
+
+.features
+{
+    text-align: center;
+    padding: 5% 10%;
+    background: #3f3d56;
+    color: #eeeeee;
+}
+
+.judul-features
+{
+    margin-bottom: 50px;
+}
+.img-features
+{
+    height: 500px;
+}
+
+.fungsi
+{
+    text-align: left;
+}
+
+
+
+/* bagian about*/
+
+.about
+{
+    padding: 2% 8%;
+    height: 100vh;
+}
+
+.h3-about
+{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.row-about
+{
+    text-align: center;
+    padding: 0% 20% 0% 20%;
+    font-size: 30px;
+}
+
+.row-gambar
+{
+    margin-left: 220px;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.img-about
+{
+    height: 200px;
+
+}
+
+/* bagian user*/
+
+.user
+{
+    background: #3f3d56;
+    
+}
+
+
+
+.h2-user
+{
+    color: #eeeeee;
+    text-align: center;
+    padding: 5% ;
+}
+.card-name
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-body
+{
+    text-align: center;
+    font-size: 21px;
+}
+
+.card-img-top 
+{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+
+}
+
+.card-deck
+{
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card{
+    background: #eeeeee;
+    border-radius: 10%;
+    padding: 5% 1% 5% 1%;
+}
+.card-name
+{
+
+    text-align: center;
+}
+
+/* buy  */
+.buy
+{
+    background: #eeeeee;
+   padding: 2% 5%;
+   height: 100vh;
+}
+
+.h2-buy
+{
+    text-align: center;
+    padding-top: 5%;
+    color: rgba(19, 12, 26, 0.925);
+}
+.home-ing
+{
+    height: 400px;
+    padding-left: 20%;
+}
+
+.text
+{
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+
+
+
+
+/* contack */
+.contak
+{
+    background: #eeeeee;
+   padding: 3% 5%;
+   height: 100vh;
+}
+.h5-con
+{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: rgba(19, 12, 26, 0.925);
+    font-size: 30px;
+}
+.a
+{
+    font-size: 30px;
+    padding-right: 25%;
+}
+.p-can
+{
+    color: gray;
+}
+.in
+{
+    margin-top: 3%;
+    
+    padding: 2% 42% 2% 0%;
+
+}
+.inar
+{
+    margin-top: 3%;
+    padding-right: 45%;
+    padding-bottom: 10%;
+    
+}
+.but{
+   margin-top: 3%;
+}
+
+/* last */
+.last
+{
+    padding: 5% 10% 2%;
+    background: #3f3d56;  
+}
+.footer-img
+{
+    height: 170px;
+    padding-right: 10px;
+}
+.h6-ju
+{
+    color: white;
+    font-size: 20px;
+}
+.rax
+{
+    color: white;
+}
+
+.rex
+{
+    text-transform: uppercase;
+    color: white;
+}
+.tag
+{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5% 0% 0% 0%;
+}
+
+@media only screen and (max-width:700px){
+   .pertama{
+       order: 2;
+   }
+   .kedua{
+       order: 1;
+   }
+}
